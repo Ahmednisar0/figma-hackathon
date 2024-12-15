@@ -1,6 +1,6 @@
 import Bestseller from "@/components/bestseller";
 import Editors from "@/components/editor";
-import Footer from "@/components/footer";
+
 import { Navbar } from "@/components/navbar";
 import Collection from "@/components/newcollection";
 import Partofneutralsection from "@/components/partofneutralsection";
@@ -20,7 +20,7 @@ export default function Home() {
     <Classicproduct />
     <Partofneutralsection/>
     <Posts />
-    <Footer />
+    
     </>
   );
 }

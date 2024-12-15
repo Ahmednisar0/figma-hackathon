@@ -4,17 +4,17 @@ import instagram from "@/images/ant-design_instagram-outlined.png";
 import twitter from "@/images/ant-design_twitter-outlined.png"
 export default function Footer() {
     return (
-        <footer className="bg-white absolute top-[5100px] left-[100px]">
+        <footer className="bg-white absolute  ml-[195px]">
            {/* Top Section */}
            <section className="bg-[#ffffff] py-10">
                 <div className="max-w-screen-xl mx-auto flex justify-between items-center">
                     <div className="flex flex-col">
                         <h1 className="text-[#252b42] text-2xl font-bold leading-loose tracking-tight">Bandage</h1>
                     </div>
-                    <div className="flex gap-6">
-                        <Image src="/images/facebook.png" alt="fb" className="w-6 h-6 " />
-                        <Image src="/images/ant-design_instagram-outlined.png" alt="ins" className="w-6 h-6 " />
-                        <Image src="/images/ant-design_twitter-outlined.png" alt="twit" className="w-6 h-6 " />
+                    <div className="flex mr-7 gap-6">
+                        <img src="/images/facebook.png" alt="fb" className="w-6 h-6 " />
+                        <img src="/images/insta.png" alt="ins" className="w-6 h-6 " />
+                        <img src="/images/twiter.png" alt="twit" className="w-6 h-6 " />
                     </div>
                 </div>
             </section>
@@ -24,7 +24,7 @@ export default function Footer() {
   
             {/* Main Footer Content */}
             <section className="bg-white py-12">
-                <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-12">
+                <div className="max-w-screen-xl mx-auto flex gap-12">
                     {/* Company Info */}
                     <div>
                         <h2 className="text-[#252b42] text-base font-bold">Company Info</h2>
@@ -70,7 +70,7 @@ export default function Footer() {
                     </div>
   
                     {/* Get in Touch */}
-                    <div>
+                    <div className="w-[321px] ml-5 ">
                         <h2 className="text-[#252b42] text-base font-bold">Get In Touch</h2>
                         <div className="mt-3">
                             <div className="relative mb-4">
@@ -83,7 +83,7 @@ export default function Footer() {
                                     Subscribe
                                 </button>
                             </div>
-                            <p className="text-[#727272] text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p className="text-[#727272] text-xs">Lorem ipsum dolor sit amet</p>
                         </div>
                     </div>
                 </div>

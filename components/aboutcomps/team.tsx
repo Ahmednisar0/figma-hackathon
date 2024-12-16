@@ -11,18 +11,18 @@ export default function Team() {
     }
   ];
     return (
-      <div className="h-[826px]">
-        <div className="h-[819px] ml-[195px]  pb-[112px] gap-[112px]"> 
+      <div className="lg:w-full w-[414px] h-[1427px] lg:h-[826px]">
+        <div className="h-[819px] lg:ml-[195px]  lg:pb-[112px] lg:gap-[112px]"> 
 
-          <div className="w-[607px] ml-48 h-[150px] flex flex-col items-center justify-center">
-            <h2 className="font-bold text-[40px] leading-[50px] text-center tracking-[0.2px] text-[#252B42]">
+          <div className="lg:w-[607px] w-[302px] h-[109px] ml-12 lg:ml-48 lg:h-[150px] flex flex-col items-center justify-center">
+            <h2 className=" w-[302px] h-[100px] font-bold text-[40px] leading-[50px] text-center tracking-[0.2px] text-[#252B42]">
               Meet Our Team
             </h2>
-            <p className="text-center w-[469px] mt-2 h-[40px] font-normal text-[14px] leading-[20px] text-[#737373] tracking-[0.2px]">
+            <p className="text-center h-[80px]  lg:w-[469px] mt-2 lg:h-[40px] font-normal text-[14px] leading-[20px] text-[#737373] tracking-[0.2px]">
               Problems trying to resolve the conflict between <br/> the two major realms of Classical physics: Newtonian mechanics
             </p>
           </div>
-          <div className="w-[1034px] h-[383px] gap-[30px] flex mt-[70px]">
+          <div className="lg:w-[1034px] h-[1330px] lg:h-[383px] gap-[30px] flex lg:flex-row flex-col  items-center lg:items-start lg:justify-start mt-[70px]">
       
       {users.map((user, index) => (
         <div key={index} className="w-[316px] flex flex-col h-[383px]">

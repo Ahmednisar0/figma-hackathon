@@ -33,15 +33,15 @@ export default function Team() {
         }
       ];
       return (
-        <div className="h-[1759px]">
-          <div className="h-[819px] ml-[195px]  pb-[112px] gap-[112px]"> 
+        <div className="lg:h-[1759px] h-[4180px] w-[414px] ">
+          <div className="h-[819px] lg:ml-[195px]  pb-[112px] gap-[112px]"> 
   
-            <div className="w-[607px] ml-48 h-[150px] flex flex-col items-center justify-center">
+            <div className="lg:w-[607px] lg:ml-48 h-[150px] flex flex-col  items-center justify-center">
               <h2 className="font-bold text-[40px] leading-[50px] text-center tracking-[0.2px] text-[#252B42]">
                 Meet Our Team
               </h2>
             </div>
-            <div className="w-[1034px] h-[383px] gap-[30px] flex mt-[70px]">
+            <div className="lg:w-[1034px] items-center  h-[1200px] lg:h-[383px] gap-[30px] lg:flex-row flex-col flex mt-[70px]">
         
         {users.map((user, index) => (
           <div key={index} className="w-[316px] flex flex-col h-[383px]">
@@ -77,12 +77,12 @@ export default function Team() {
             </div>
           </div>
         ))}
-      </div> <div className="w-[1034px] h-[383px] gap-[30px] flex mt-[70px]">
+      </div><div className="lg:w-[1034px] items-center h-[1200px] lg:h-[383px] gap-[30px] lg:flex-row flex-col flex mt-[70px]">
         
-        {users1.map((user1, index) => (
+        {users1.map((user, index) => (
           <div key={index} className="w-[316px] flex flex-col h-[383px]">
             <img
-              src={user1.imgSrc}
+              src={user.imgSrc}
               alt={`user-${index + 1}`}
               className="w-[316px] h-[231px]"
             />
@@ -113,12 +113,12 @@ export default function Team() {
             </div>
           </div>
         ))}
-      </div> <div className="w-[1034px] h-[383px] gap-[30px] flex mt-[70px]">
+      </div><div className="lg:w-[1034px] items-center h-[1300px] lg:h-[383px] gap-[30px] lg:flex-row flex-col flex mt-[70px]">
         
-        {users2.map((user2, index) => (
+        {users2.map((user, index) => (
           <div key={index} className="w-[316px] flex flex-col h-[383px]">
             <img
-              src={user2.imgSrc}
+              src={user.imgSrc}
               alt={`user-${index + 1}`}
               className="w-[316px] h-[231px]"
             />

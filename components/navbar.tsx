@@ -14,7 +14,7 @@ export function Navbar() {
   };
 
   return (
-    <nav className="w-full bg-white flex items-center px-4 md:px-8 lg:px-16">
+    <nav className="lg:ml-[130px] bg-white flex items-center px-4 md:px-8 lg:px-16">
       {/* Brand Section */}
       <div className="flex lg:mt-4 items-center">
         <h3 className="text-[#252B42] font-montserrat font-bold text-[24px] leading-[32px] tracking-[0.1px]">
@@ -23,7 +23,7 @@ export function Navbar() {
       </div>
 
       {/* Desktop Navigation */}
-      <div className="hidden  lg:mt-4 lg:flex flex-1 justify-center gap-[15px]">
+      <div className="hidden  lg:mt-4 lg:flex flex-1 lg:ml-[100px] gap-[15px]">
         <a
           href="#home"
           className="text-[#737373] font-bold hover:text-[#252B42] transition"
@@ -66,7 +66,7 @@ export function Navbar() {
       </div>
 
       {/* Desktop Right Section */}
-      <div className="hidden lg:mt-4 lg:flex gap-4 items-center">
+      <div className="hidden lg:mt-4 mr-[140px] lg:flex gap-4 items-center">
         <div className="flex items-center gap-[5px]">
           <FaRegUser className="text-[#23A6F0]" />
           <a href="#login" className="text-[#23A6F0] font-bold">

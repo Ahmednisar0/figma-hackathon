@@ -1,14 +1,11 @@
-import Image from "next/image";
-import fb from "@/images/facebook.png";
-import instagram from "@/images/ant-design_instagram-outlined.png";
-import twitter from "@/images/ant-design_twitter-outlined.png"
+
 export default function Footer() {
     return (
-        <footer className="bg-white absolute  ml-[195px]">
+        <footer className="bg-white lg:absolute ml-4  lg:ml-[195px]">
            {/* Top Section */}
-           <section className="bg-[#ffffff] py-10">
-                <div className="max-w-screen-xl mx-auto flex justify-between items-center">
-                    <div className="flex flex-col">
+           <section className="bg-[#ffffff] lg:py-10">
+                <div className="lg:w-[1050px] w-[414px]  flex lg:flex-row flex-col lg:justify-between lg:items-center">
+                    <div className="flex  flex-col">
                         <h1 className="text-[#252b42] text-2xl font-bold leading-loose tracking-tight">Bandage</h1>
                     </div>
                     <div className="flex mr-7 gap-6">
@@ -24,7 +21,7 @@ export default function Footer() {
   
             {/* Main Footer Content */}
             <section className="bg-white py-12">
-                <div className="max-w-screen-xl mx-auto flex gap-12">
+                <div className="lg:w-[1050px] w-[414px] mx-auto flex lg:flex-row flex-col gap-12">
                     {/* Company Info */}
                     <div>
                         <h2 className="text-[#252b42] text-base font-bold">Company Info</h2>

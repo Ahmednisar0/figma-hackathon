@@ -1,4 +1,15 @@
 export default function Team() {
+  const users = [
+    {
+      imgSrc: "/images/user-1.jpg"
+    },
+    {
+      imgSrc: "/images/user-2.jpg"
+    },
+    {
+      imgSrc: "/images/user-3.jpg"
+    }
+  ];
     return (
       <div className="h-[826px]">
         <div className="h-[819px] ml-[195px]  pb-[112px] gap-[112px]"> 
@@ -11,30 +22,43 @@ export default function Team() {
               Problems trying to resolve the conflict between <br/> the two major realms of Classical physics: Newtonian mechanics
             </p>
           </div>
-           <div className="w-[1034px] h-[383px] gap-[30px] flex mt-[70px]">
-           <div className="w-[316px] flex flex-col h-[383px]" >
-                 <img src="/images/user-1.jpg" alt="user1" className="w-[316px] h-[231px] " />
-             <div className="w-[316px] h-[152px] px-[30px] gap-[10px] mt-[30px] ">
-                <h5 className="text-center font-bold text-[16px] leading-[24px] tracking-[0.1px] text-[#252B42] ">Username</h5>
-                <h5 className="text-center font-bold text-[14px] mt-[10px] leading-[24px] tracking-[0.2px] text-[#737373] ">Profession</h5>
-                <div className="flex  w-[112px] h-[24px] gap-[20px] mt-[10px] ml-[72px]"><img src="/images/facebook.png" alt="facebook" className="w-[24px] h-[24px]"/><img src="/images/insta.png" alt="facebook" className="w-[24px] h-[24px]"/><img src="/images/twiter.png" alt="facebook" className="w-[24px] h-[24px]"/></div>
-                </div>
-             </div> <div className="w-[316px] flex flex-col h-[383px]" >
-                 <img src="/images/user-2.jpg" alt="user1" className="w-[316px] h-[231px] " />
-             <div className="w-[316px] h-[152px] px-[30px] gap-[10px] mt-[30px] ">
-                <h5 className="text-center font-bold text-[16px] leading-[24px] tracking-[0.1px] text-[#252B42] ">Username</h5>
-                <h5 className="text-center font-bold text-[14px] mt-[10px] leading-[24px] tracking-[0.2px] text-[#737373] ">Profession</h5>
-                <div className="flex  w-[112px] h-[24px] gap-[20px] mt-[10px] ml-[72px]"><img src="/images/facebook.png" alt="facebook" className="w-[24px] h-[24px]"/><img src="/images/insta.png" alt="facebook" className="w-[24px] h-[24px]"/><img src="/images/twiter.png" alt="facebook" className="w-[24px] h-[24px]"/></div>
-                </div>
-             </div> <div className="w-[316px] flex flex-col h-[383px]" >
-                 <img src="/images/user-3.jpg" alt="user1" className="w-[316px] h-[231px] " />
-             <div className="w-[316px] h-[152px] px-[30px] gap-[10px] mt-[30px] ">
-                <h5 className="text-center font-bold text-[16px] leading-[24px] tracking-[0.1px] text-[#252B42] ">Username</h5>
-                <h5 className="text-center font-bold text-[14px] mt-[10px] leading-[24px] tracking-[0.2px] text-[#737373] ">Profession</h5>
-                <div className="flex  w-[112px] h-[24px] gap-[20px] mt-[10px] ml-[72px]"><img src="/images/facebook.png" alt="facebook" className="w-[24px] h-[24px]"/><img src="/images/insta.png" alt="facebook" className="w-[24px] h-[24px]"/><img src="/images/twiter.png" alt="facebook" className="w-[24px] h-[24px]"/></div>
-                </div>
-             </div>
-           </div>
+          <div className="w-[1034px] h-[383px] gap-[30px] flex mt-[70px]">
+      
+      {users.map((user, index) => (
+        <div key={index} className="w-[316px] flex flex-col h-[383px]">
+          <img
+            src={user.imgSrc}
+            alt={`user-${index + 1}`}
+            className="w-[316px] h-[231px]"
+          />
+          <div className="w-[316px] h-[152px] px-[30px] gap-[10px] mt-[30px]">
+            <h5 className="text-center font-bold text-[16px] leading-[24px] tracking-[0.1px] text-[#252B42]">
+              Username
+            </h5>
+            <h5 className="text-center font-bold text-[14px] mt-[10px] leading-[24px] tracking-[0.2px] text-[#737373]">
+              Profession
+            </h5>
+            <div className="flex w-[112px] h-[24px] gap-[20px] mt-[10px] ml-[72px]">
+              <img
+                src="/images/facebook.png"
+                alt="facebook"
+                className="w-[24px] h-[24px]"
+              />
+              <img
+                src="/images/insta.png"
+                alt="insta"
+                className="w-[24px] h-[24px]"
+              />
+              <img
+                src="/images/twiter.png"
+                alt="twitter"
+                className="w-[24px] h-[24px]"
+              />
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
         </div>
       </div>
     );

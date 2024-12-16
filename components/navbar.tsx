@@ -25,14 +25,14 @@ export function Navbar() {
       {/* Desktop Navigation */}
       <div className="hidden  lg:mt-4 lg:flex flex-1 lg:ml-[100px] gap-[15px]">
         <a
-          href="#home"
+          href=""
           className="text-[#737373] font-bold hover:text-[#252B42] transition"
         >
           Home
         </a>
         <div className="flex items-center gap-[5px]">
           <a
-            href="#shop"
+            href="/shop"
             className="text-[#252B42] font-medium hover:underline"
           >
             Shop
@@ -40,28 +40,34 @@ export function Navbar() {
           <PiCaretDownBold className="text-[#252B42]" />
         </div>
         <a
-          href="#about"
+          href="/about"
           className="text-[#737373] font-bold hover:text-[#252B42]"
         >
           About
         </a>
         <a
-          href="#blog"
+          href="/pricing"
           className="text-[#737373] font-bold hover:text-[#252B42]"
         >
-          Blog
+          Pricing
         </a>
         <a
-          href="#contact"
+          href="/contact-us"
           className="text-[#737373] font-bold hover:text-[#252B42]"
         >
           Contact
         </a>
         <a
-          href="#pages"
+          href="/list-page"
           className="text-[#737373] font-bold hover:text-[#252B42]"
         >
           Pages
+        </a>
+        <a
+          href="/team"
+          className="text-[#737373] font-bold hover:text-[#252B42]"
+        >
+          Team
         </a>
       </div>
 

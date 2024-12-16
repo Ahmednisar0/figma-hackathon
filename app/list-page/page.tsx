@@ -13,10 +13,14 @@ export default  function Home (){
             <Navbar />
             <Shop />
             <Brands />
+            <div className="lg:hidden block">
+            <Cardsec />
+            </div>
             <Brandimages />
             <Footer />
+           <div className="hidden lg:block">
             <Cardsec />
-            
+            </div>
         </div>
     )
 }

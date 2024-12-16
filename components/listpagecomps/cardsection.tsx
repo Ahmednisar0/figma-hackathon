@@ -1,7 +1,8 @@
 import Image from "next/image";
 
         export default  function Cardsec (){
-            return ( <div><div className=" h-[1778px] mt-[450px]"><div className="grid ml-[158px] w-[1124px] h-[1778px]  grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 ">
+            return ( <div>
+              <div className=" h-[6000px] lg:h-[1778px] lg:mt-[450px]"><div className="grid lg:items-start items-center ml-20 w-[414px] lg:ml-[158px] lg:w-[1124px] lg:h-[1778px]  grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 ">
                 {/* Product Cards */}
                 {[
                   "/images/product-cover-5.png",

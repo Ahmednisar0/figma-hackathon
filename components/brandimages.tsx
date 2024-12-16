@@ -1,5 +1,5 @@
 export default  function Brandimages (){
-   return (<div className="lg:h-[200px]  mt-[100px] lg:mt-[1px] bg-[#FAFAFA]"> 
+   return (<div className="lg:h-[200px] h-[1173px]  mt-[100px] lg:mt-[1px] bg-[#FAFAFA]"> 
    <div><div className="lg:w-[1050px] w-[414px] flex-col flex  items-center  lg:ml-[195px] h-[175px] pt-[80px] pb-[50px] lg:flex-row justify-between gap:[60px] lg:gap-[30px]">
             <img src="/images/fa-brands-1.png" alt="brands" className="w-[103px]  h-[34px]" />
             <img src="/images/fa-brands-2.png" alt="brands" className="w-[83px] lg:mt-[1px] mt-[100px] h-[59px]" />

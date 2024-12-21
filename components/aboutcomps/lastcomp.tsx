@@ -1,6 +1,6 @@
 export default function Last(){
     return (
-        <div className=" w-[414px] lg:h-[636px] bg-[#2A7CC7] ">
+        <div className=" w-[414px] lg:w-full lg:h-[636px] bg-[#2A7CC7] ">
             <div className=" lg:h-[636px] lg:ml-[195px] lg:pt-[112px] pb-[112px]">
                 <div className="h-[412px] flex gap-[24px]  items-center lg:items-start lg:justify-between">
                 <div className="w-[414px] lg:w-[436px] mt-20 h-[238px] gap-[24px] ">

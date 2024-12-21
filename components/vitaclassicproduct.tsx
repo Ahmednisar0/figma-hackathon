@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Classicproduct() {
   return (
-    <div className="relative bg-[#23856D]  rounded-[5px] top-[2200px] border">
+    <div className="relative bg-[#23856D]  rounded-[5px] top-[2270px] border">
       <div className="w-full h-[799px]">
         <div className="absolute left-[209px] py-[112px] flex gap-[80px] w-[1036px] h-[711px]">
           <div className="flex gap-[30px] w-[1049px] h-[599px]">

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Partofneutralsection() {
   return (
-    <div className="w-full h-auto  absolute top-[3840px]">
+    <div className="w-full h-auto   absolute top-[3908px]">
       <div className="w-full max-w-[1440px] flex flex-col lg:flex-row gap-[30px] px-4 lg:px-0">
         {/* Image Section */}
         <div className="relative w-full lg:w-[707px] h-[400px] lg:h-[682px] flex justify-center">

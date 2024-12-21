@@ -8,7 +8,7 @@ const Carousel = () => {
         <Image src="/images/shop-hero-1-product-slide-1 (1).jpg" alt="Summer Collection" layout="fill" objectFit="cover" />
       </div>
 
-      <div className="absolute flex flex-col justify-center items-start gap-8 px-6 lg:px-16 top-[25%] left-[6%] z-10">
+      <div className="absolute lg:ml-[85px]  flex flex-col justify-center items-start gap-8 px-6 lg:px-16 top-[25%] left-[6%] z-10">
         <h5 className="text-white font-semibold text-xl tracking-wider">SUMMER 2020</h5>
         <h1 className="text-white font-semibold text-5xl leading-tight max-w-lg">
           NEW COLLECTION

@@ -20,7 +20,6 @@ export default function Home() {
     <Classicproduct />
     <Partofneutralsection/>
     <Posts />
-    <Footer />
     
     </>
   );

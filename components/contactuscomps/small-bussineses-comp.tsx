@@ -10,9 +10,13 @@ export default function Lastcomp (){
         We help small businesses 
         with big ideas
         </h2></div>
-        <div className=" lg:mt-[90px] mt-8 flex lg:items-start  items-center lg:flex-row flex-col w-[414px] lg:w-[985px]  "> <img src="/images/row-1.png" alt="row" className="w-[329px] h-[403px]" />
-        <img src="/images/row-2.png" alt="row" className="w-[329px] h-[403px]" /> </div>
-        <img src="/images/row-3.png" alt="row" className="w-[329px] ml-11 lg:ml-0 h-[403px]" />
+        <div className=" lg:mt-[90px] mt-8 flex lg:items-center   items-center lg:flex-row flex-col w-[414px] lg:w-[985px]  ">
+           <img src="/images/row-1.png" alt="row" className="w-[329px] h-[403px]" />
+      <img src="/images/row-3.png" alt="row" className="w-[329px] lg:hidden block ml-11 lg:ml-0 h-[403px]" />
+    \
+      <img src="/images/row-2.png" alt="row" className="w-[329px] h-[403px]" />  
+          <img src="/images/row-3.png" alt="row" className="hidden lg:block w-[329px] h-[403px]" /> </div> 
+        
       </div>
       <div className="lg:h-[500px] mt-[100px] lg:ml-[195px] ">
       <div className="lg:w-[607px] h-[440px] lg:ml-[170px] lg:h-[200px] flex flex-col items-center justify-center">

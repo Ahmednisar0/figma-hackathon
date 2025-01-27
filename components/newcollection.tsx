@@ -4,7 +4,7 @@ import women from "@/images/shop-hero-1-product-slide-1 (1).jpg";
 const Carousel = () => {
   return (
     <div className="relative w-full h-[716px] mt-4">
-      <div className="absolute inset-0">
+      <div className="absolute lg:ml-0 ml-[-200px] inset-0">
         <Image src="/images/shop-hero-1-product-slide-1 (1).jpg" alt="Summer Collection" layout="fill" objectFit="cover" />
       </div>
 

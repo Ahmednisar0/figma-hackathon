@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Bestseller() {
   return (
-    <div className="w-full absolute top-[1555px] left-0 flex justify-center bg-white">
+    <div className="w-full lg:h-[1600px] h-[5400px] flex justify-center bg-white">
       <div className="w-full max-w-[1124px] py-[80px] flex flex-col gap-[80px] px-4">
         {/* Text Section */}
         <div className="text-center flex flex-col gap-[10px]">

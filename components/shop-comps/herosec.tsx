@@ -14,14 +14,14 @@ export default  function Herosec (){
 </div>
 <div className="h-[598px]  ">
 <div className="lg:w-[1050px] h-[991px] lg:h-[598px] flex-col  flex gap-[30px] lg:flex-row   pb-[48px]">
- <div className="w-[510px] h-[550px] flex flex-col ">
-    <img src="/images/single-product-1-cover-2.jpg" alt="" className="w-[506px] h-[450px]" />
+ <div className="lg:w-[510px] lg:h-[550px] flex flex-col ">
+    <img src="/images/single-product-1-cover-2.jpg" alt="" className="lg:w-[506px] w-full h-[450px]" />
     <div className="w-[219px] h-[75px] flex justify-between">
         <img src="/images/single-product-1-thumb-1.jpg" alt="" className="w-[100px] h-[75px] " />
         <img src="/images/single-product-1-thumb-2.jpg" alt="" className="w-[100px] h-[75px] " />
         </div>
  </div>
- <div className="flex flex-col w-[510px] h-[471px]"> 
+ <div className="flex flex-col lg:w-[510px] h-[471px]"> 
  <h4 className="w-[156px] text-[#252B42] h-[30px] mt-[11px] ml-[24px] font-montserrat font-[400] text-[20px] leading-[30px] tracking-[0.2px]">
   Floating,Phone
 </h4>

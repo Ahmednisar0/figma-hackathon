@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function Classicproduct() {
   return (
-    <div className="relative bg-[#23856D]  rounded-[5px] top-[2270px] border">
+    <div className="relative bg-[#23856D] h-[1200px] w-full  rounded-[5px] lg:h-[790px] border">
       <div className="w-full h-[799px]">
-        <div className="absolute left-[209px] py-[112px] flex gap-[80px] w-[1036px] h-[711px]">
-          <div className="flex gap-[30px] w-[1049px] h-[599px]">
-            <div className="flex flex-col gap-[30px] pt-[60px] w-[509px] h-[432px]">
+        <div className="absolute lg:left-[209px] py-[112px] flex gap-[80px] lg:w-[1036px] h-[711px]">
+          <div className="flex lg:flex-row flex-col gap-[30px] lg:w-[1049px] h-[599px]">
+            <div className="flex ml-[20px] flex-col gap-[30px] pt-[60px] lg:w-[509px] h-[432px]">
               <h4 className="font-Montserrat text-white text-[20px] leading-[30px] font-normal">
                 SUMMER 2020
               </h4>
@@ -27,7 +27,16 @@ export default function Classicproduct() {
                 </button>
               </div>
             </div>
-            <div className="w-[510px]">
+            <div className="w-[410px] lg:hidden block">
+              <Image
+                src="/images/shop-hero-2-png-picture-1.png"
+                alt="Vita Classic Product Image"
+                width={410}
+                height={332}
+                className="object-cover"
+              />
+            </div>
+            <div className="w-[510px] hidden lg:block ">
               <Image
                 src="/images/shop-hero-2-png-picture-1.png"
                 alt="Vita Classic Product Image"
